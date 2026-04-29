@@ -33,7 +33,7 @@ try:
                 print(f"File type {extension} moved to 'Other'")
 
 except Exception as e:
-    with open("/home/willow/work/download_organizer/error.txt", "a", encoding="utf-8") as f:
+    with open("/home/willow/work/download_organizer-repo/error.txt", "a", encoding="utf-8") as f:
         f.write(f"\nError at {date}: {e}")
 
 

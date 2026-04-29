@@ -16,7 +16,7 @@ When run, the script scans your Downloads folder and moves each file into a subf
 | Programs | `.py` `.html` `.js` `.css` |
 | Other | anything not listed above |
 
-Files with unrecognised extensions are moved to `Other/` and logged to the console. Any errors are appended to `~/work/download_organizer/error.txt`.
+Files with unrecognised extensions are moved to `Other/` and logged to the console. Any errors are appended to `~/work/download_organizer-repo/error.txt`.
 
 ---
 
@@ -122,14 +122,14 @@ Description=Run downloads organiser every 30 minutes
 
 [Timer]
 OnBootSec=5min
-OnUnitActiveSec=30min
+OnUnitActiveSec=60min
 
 [Install]
 WantedBy=timers.target
 ```
 
 - `OnBootSec=5min` — runs the script 5 minutes after boot, so it doesn't fire immediately on startup.
-- `OnUnitActiveSec=30min` — then repeats every 30 minutes after each run.
+- `OnUnitActiveSec=30min` — then repeats every 60 minutes after each run.
 
 ### 3. Enable and start the timer
 
