@@ -13,7 +13,7 @@ categories = {
     ".mp3": "Audio", ".wav": "Audio", ".flac": "Audio",
     ".pdf": "Documents", ".docx": "Documents", ".txt": "Documents",
     ".zip": "Archives", ".tar": "Archives", ".gz": "Archives",
-    ".py": "Programs", ".html": "Programs", "js": "Programs", ".css": "Programs"
+    ".py": "Programs", ".html": "Programs", ".js": "Programs", ".css": "Programs"
 }
 
 try:
